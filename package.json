@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "cd Frontend && npm install && npm run build && cd .. && cd Backend && npm install",
+    "start": "node Backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoGlez/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BernardoGlez/project/issues"
+  },
+  "homepage": "https://github.com/BernardoGlez/project#readme",
+  "dependencies": {
+  }
+}
