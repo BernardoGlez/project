@@ -4,8 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "cd Frontend && npm install && npm run build && cd .. && cd Backend && npm install",
-    "start": "node Backend/server.js"
+    "heroku-postbuild": "cd Frontend && npm install && npm run build",
+    "start": "npm install && node Backend/server.js"
   },
   "repository": {
     "type": "git",
